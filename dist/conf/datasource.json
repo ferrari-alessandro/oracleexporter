@@ -1,0 +1,20 @@
+[
+  {
+    "url": "jdbc:oracle:thin:@localhost:1521:xe",
+    "user": "TEST",
+    "password": "TEST",
+    "enabled": true,
+    "exports" : [
+      {
+        "type": "PACKAGE_BODY",
+        "name": "PKG_TEST",
+        "path": "/tmp/test/PKG_TEST.pkb"
+      },
+      {
+        "type": "PACKAGE_SPEC",
+        "name": "PKG_AC_ACCOUNT",
+        "path": "/tmp/test/PKG_TEST.pks"
+      }
+    ]
+  }
+]
